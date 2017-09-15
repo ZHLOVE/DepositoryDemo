@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182052221F5432BE00057311 /* ListofnetworkoperatorsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820521C1F5432BE00057311 /* ListofnetworkoperatorsVC.m */; };
+		182052271F5433C100057311 /* ListofnetworkoperatorsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182052261F5433C100057311 /* ListofnetworkoperatorsCell.m */; };
+		1820522E1F54395000057311 /* HZOpenAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820522D1F54395000057311 /* HZOpenAccountVC.m */; };
+		182052311F5458B900057311 /* HZNextOpenAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 182052301F5458B900057311 /* HZNextOpenAccountVC.m */; };
+		185CC4941F53C6AB009D883A /* HZRegionalChoiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CC4931F53C6AB009D883A /* HZRegionalChoiceVC.m */; };
+		185CC4991F53C879009D883A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CC4961F53C879009D883A /* SecondViewController.m */; };
+		185CC49A1F53C879009D883A /* ThridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CC4981F53C879009D883A /* ThridViewController.m */; };
+		185CC49C1F53C88A009D883A /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185CC49B1F53C88A009D883A /* area.plist */; };
+		188D2B3D1F51234300D81019 /* HZSuccessVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D2B3C1F51234300D81019 /* HZSuccessVCViewController.m */; };
+		188D2B401F51238600D81019 /* HZEeeorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D2B3F1F51238600D81019 /* HZEeeorVC.m */; };
+		188D2B441F5151D500D81019 /* HZRechargeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D2B431F5151D500D81019 /* HZRechargeVC.m */; };
+		18DF8D9A1F638E690069D1CD /* MyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF8D971F638E690069D1CD /* MyAlertView.m */; };
+		18DF8D9B1F638E690069D1CD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF8D991F638E690069D1CD /* UIView+Frame.m */; };
+		8E88BC7B1F26E389006A9EE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E88BC7A1F26E389006A9EE8 /* main.m */; };
+		8E88BC7E1F26E389006A9EE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E88BC7D1F26E389006A9EE8 /* AppDelegate.m */; };
+		8E88BC811F26E389006A9EE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E88BC801F26E389006A9EE8 /* ViewController.m */; };
+		8E88BC841F26E389006A9EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E88BC821F26E389006A9EE8 /* Main.storyboard */; };
+		8E88BC861F26E389006A9EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E88BC851F26E389006A9EE8 /* Assets.xcassets */; };
+		8E88BC891F26E389006A9EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E88BC871F26E389006A9EE8 /* LaunchScreen.storyboard */; };
+		8E88BC941F26E38C006A9EE8 /* QHXPasswordTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E88BC931F26E38C006A9EE8 /* QHXPasswordTextFieldTests.m */; };
+		8E88BC9F1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E88BC9E1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests.m */; };
+		8E88BCAF1F26E3E6006A9EE8 /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E88BCAE1F26E3E6006A9EE8 /* PasswordView.m */; };
+		BA8905991F52A8E60092157E /* HZWithdrawalsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8905981F52A8E60092157E /* HZWithdrawalsVC.m */; };
+		BAE21D0B1F53295A0039506E /* HZModifyBankCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE21D0A1F53295A0039506E /* HZModifyBankCardVC.m */; };
+		BAE21D0E1F5334160039506E /* HZOpenDepositAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE21D0D1F5334160039506E /* HZOpenDepositAccountVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E88BC901F26E38C006A9EE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E88BC6E1F26E387006A9EE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E88BC751F26E388006A9EE8;
+			remoteInfo = QHXPasswordTextField;
+		};
+		8E88BC9B1F26E38C006A9EE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E88BC6E1F26E387006A9EE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E88BC751F26E388006A9EE8;
+			remoteInfo = QHXPasswordTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1820521B1F5432BE00057311 /* ListofnetworkoperatorsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListofnetworkoperatorsVC.h; sourceTree = "<group>"; };
+		1820521C1F5432BE00057311 /* ListofnetworkoperatorsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListofnetworkoperatorsVC.m; sourceTree = "<group>"; };
+		182052251F5433C100057311 /* ListofnetworkoperatorsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListofnetworkoperatorsCell.h; sourceTree = "<group>"; };
+		182052261F5433C100057311 /* ListofnetworkoperatorsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListofnetworkoperatorsCell.m; sourceTree = "<group>"; };
+		1820522C1F54395000057311 /* HZOpenAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZOpenAccountVC.h; sourceTree = "<group>"; };
+		1820522D1F54395000057311 /* HZOpenAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZOpenAccountVC.m; sourceTree = "<group>"; };
+		1820522F1F5458B900057311 /* HZNextOpenAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNextOpenAccountVC.h; sourceTree = "<group>"; };
+		182052301F5458B900057311 /* HZNextOpenAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNextOpenAccountVC.m; sourceTree = "<group>"; };
+		185CC4921F53C6AB009D883A /* HZRegionalChoiceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRegionalChoiceVC.h; sourceTree = "<group>"; };
+		185CC4931F53C6AB009D883A /* HZRegionalChoiceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZRegionalChoiceVC.m; sourceTree = "<group>"; };
+		185CC4951F53C879009D883A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		185CC4961F53C879009D883A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		185CC4971F53C879009D883A /* ThridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThridViewController.h; sourceTree = "<group>"; };
+		185CC4981F53C879009D883A /* ThridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThridViewController.m; sourceTree = "<group>"; };
+		185CC49B1F53C88A009D883A /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		188D2B3B1F51234300D81019 /* HZSuccessVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZSuccessVCViewController.h; sourceTree = "<group>"; };
+		188D2B3C1F51234300D81019 /* HZSuccessVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZSuccessVCViewController.m; sourceTree = "<group>"; };
+		188D2B3E1F51238600D81019 /* HZEeeorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZEeeorVC.h; sourceTree = "<group>"; };
+		188D2B3F1F51238600D81019 /* HZEeeorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZEeeorVC.m; sourceTree = "<group>"; };
+		188D2B421F5151D500D81019 /* HZRechargeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRechargeVC.h; sourceTree = "<group>"; };
+		188D2B431F5151D500D81019 /* HZRechargeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZRechargeVC.m; sourceTree = "<group>"; };
+		18DF8D961F638E690069D1CD /* MyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertView.h; sourceTree = "<group>"; };
+		18DF8D971F638E690069D1CD /* MyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertView.m; sourceTree = "<group>"; };
+		18DF8D981F638E690069D1CD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		18DF8D991F638E690069D1CD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8E88BC761F26E388006A9EE8 /* QHXPasswordTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHXPasswordTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E88BC7A1F26E389006A9EE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E88BC7C1F26E389006A9EE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E88BC7D1F26E389006A9EE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E88BC7F1F26E389006A9EE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E88BC801F26E389006A9EE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E88BC831F26E389006A9EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E88BC851F26E389006A9EE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E88BC881F26E389006A9EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E88BC8A1F26E389006A9EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E88BC8F1F26E38C006A9EE8 /* QHXPasswordTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHXPasswordTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E88BC931F26E38C006A9EE8 /* QHXPasswordTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHXPasswordTextFieldTests.m; sourceTree = "<group>"; };
+		8E88BC951F26E38C006A9EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E88BC9A1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHXPasswordTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E88BC9E1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHXPasswordTextFieldUITests.m; sourceTree = "<group>"; };
+		8E88BCA01F26E38C006A9EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E88BCAD1F26E3E6006A9EE8 /* PasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordView.h; sourceTree = "<group>"; };
+		8E88BCAE1F26E3E6006A9EE8 /* PasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordView.m; sourceTree = "<group>"; };
+		BA8905971F52A8E60092157E /* HZWithdrawalsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZWithdrawalsVC.h; sourceTree = "<group>"; };
+		BA8905981F52A8E60092157E /* HZWithdrawalsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZWithdrawalsVC.m; sourceTree = "<group>"; };
+		BAE21D091F53295A0039506E /* HZModifyBankCardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZModifyBankCardVC.h; sourceTree = "<group>"; };
+		BAE21D0A1F53295A0039506E /* HZModifyBankCardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZModifyBankCardVC.m; sourceTree = "<group>"; };
+		BAE21D0C1F5334150039506E /* HZOpenDepositAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZOpenDepositAccountVC.h; sourceTree = "<group>"; };
+		BAE21D0D1F5334160039506E /* HZOpenDepositAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZOpenDepositAccountVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E88BC731F26E388006A9EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E88BC8C1F26E38C006A9EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E88BC971F26E38C006A9EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182052161F5432BE00057311 /* xianEIDC */ = {
+			isa = PBXGroup;
+			children = (
+				182052251F5433C100057311 /* ListofnetworkoperatorsCell.h */,
+				182052261F5433C100057311 /* ListofnetworkoperatorsCell.m */,
+				1820521B1F5432BE00057311 /* ListofnetworkoperatorsVC.h */,
+				1820521C1F5432BE00057311 /* ListofnetworkoperatorsVC.m */,
+			);
+			path = xianEIDC;
+			sourceTree = "<group>";
+		};
+		182052281F54374100057311 /* OpenDepositAccount */ = {
+			isa = PBXGroup;
+			children = (
+				1820522C1F54395000057311 /* HZOpenAccountVC.h */,
+				1820522D1F54395000057311 /* HZOpenAccountVC.m */,
+				1820522F1F5458B900057311 /* HZNextOpenAccountVC.h */,
+				182052301F5458B900057311 /* HZNextOpenAccountVC.m */,
+			);
+			path = OpenDepositAccount;
+			sourceTree = "<group>";
+		};
+		185CC4911F53C68C009D883A /* RegionalChoice */ = {
+			isa = PBXGroup;
+			children = (
+				185CC49B1F53C88A009D883A /* area.plist */,
+				185CC4921F53C6AB009D883A /* HZRegionalChoiceVC.h */,
+				185CC4931F53C6AB009D883A /* HZRegionalChoiceVC.m */,
+				185CC4951F53C879009D883A /* SecondViewController.h */,
+				185CC4961F53C879009D883A /* SecondViewController.m */,
+				185CC4971F53C879009D883A /* ThridViewController.h */,
+				185CC4981F53C879009D883A /* ThridViewController.m */,
+			);
+			path = RegionalChoice;
+			sourceTree = "<group>";
+		};
+		188D2B3A1F51234300D81019 /* Recharge results */ = {
+			isa = PBXGroup;
+			children = (
+				188D2B3B1F51234300D81019 /* HZSuccessVCViewController.h */,
+				188D2B3C1F51234300D81019 /* HZSuccessVCViewController.m */,
+				188D2B3E1F51238600D81019 /* HZEeeorVC.h */,
+				188D2B3F1F51238600D81019 /* HZEeeorVC.m */,
+			);
+			path = "Recharge results";
+			sourceTree = "<group>";
+		};
+		188D2B411F5151AC00D81019 /* chongZhiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				188D2B421F5151D500D81019 /* HZRechargeVC.h */,
+				188D2B431F5151D500D81019 /* HZRechargeVC.m */,
+			);
+			path = chongZhiDemo;
+			sourceTree = "<group>";
+		};
+		18DF8D951F638E690069D1CD /* ZhuCePOP */ = {
+			isa = PBXGroup;
+			children = (
+				18DF8D961F638E690069D1CD /* MyAlertView.h */,
+				18DF8D971F638E690069D1CD /* MyAlertView.m */,
+				18DF8D981F638E690069D1CD /* UIView+Frame.h */,
+				18DF8D991F638E690069D1CD /* UIView+Frame.m */,
+			);
+			path = ZhuCePOP;
+			sourceTree = "<group>";
+		};
+		8E88BC6D1F26E387006A9EE8 = {
+			isa = PBXGroup;
+			children = (
+				8E88BC781F26E388006A9EE8 /* QHXPasswordTextField */,
+				8E88BC921F26E38C006A9EE8 /* QHXPasswordTextFieldTests */,
+				8E88BC9D1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests */,
+				8E88BC771F26E388006A9EE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E88BC771F26E388006A9EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E88BC761F26E388006A9EE8 /* QHXPasswordTextField.app */,
+				8E88BC8F1F26E38C006A9EE8 /* QHXPasswordTextFieldTests.xctest */,
+				8E88BC9A1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E88BC781F26E388006A9EE8 /* QHXPasswordTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BA8905961F52A8C10092157E /* Withdrawals */,
+				8E88BCAC1F26E3E6006A9EE8 /* passwordView */,
+				188D2B411F5151AC00D81019 /* chongZhiDemo */,
+				188D2B3A1F51234300D81019 /* Recharge results */,
+				BAE21D081F53292F0039506E /* ModifyBankCard */,
+				8E88BC7F1F26E389006A9EE8 /* ViewController.h */,
+				8E88BC801F26E389006A9EE8 /* ViewController.m */,
+				18DF8D951F638E690069D1CD /* ZhuCePOP */,
+				185CC4911F53C68C009D883A /* RegionalChoice */,
+				8E88BC821F26E389006A9EE8 /* Main.storyboard */,
+				182052161F5432BE00057311 /* xianEIDC */,
+				8E88BC7C1F26E389006A9EE8 /* AppDelegate.h */,
+				182052281F54374100057311 /* OpenDepositAccount */,
+				8E88BC7D1F26E389006A9EE8 /* AppDelegate.m */,
+				8E88BC851F26E389006A9EE8 /* Assets.xcassets */,
+				8E88BC871F26E389006A9EE8 /* LaunchScreen.storyboard */,
+				8E88BC8A1F26E389006A9EE8 /* Info.plist */,
+				8E88BC791F26E389006A9EE8 /* Supporting Files */,
+			);
+			path = QHXPasswordTextField;
+			sourceTree = "<group>";
+		};
+		8E88BC791F26E389006A9EE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E88BC7A1F26E389006A9EE8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E88BC921F26E38C006A9EE8 /* QHXPasswordTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E88BC931F26E38C006A9EE8 /* QHXPasswordTextFieldTests.m */,
+				8E88BC951F26E38C006A9EE8 /* Info.plist */,
+			);
+			path = QHXPasswordTextFieldTests;
+			sourceTree = "<group>";
+		};
+		8E88BC9D1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E88BC9E1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests.m */,
+				8E88BCA01F26E38C006A9EE8 /* Info.plist */,
+			);
+			path = QHXPasswordTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		8E88BCAC1F26E3E6006A9EE8 /* passwordView */ = {
+			isa = PBXGroup;
+			children = (
+				8E88BCAD1F26E3E6006A9EE8 /* PasswordView.h */,
+				8E88BCAE1F26E3E6006A9EE8 /* PasswordView.m */,
+			);
+			path = passwordView;
+			sourceTree = "<group>";
+		};
+		BA8905961F52A8C10092157E /* Withdrawals */ = {
+			isa = PBXGroup;
+			children = (
+				BA8905971F52A8E60092157E /* HZWithdrawalsVC.h */,
+				BA8905981F52A8E60092157E /* HZWithdrawalsVC.m */,
+			);
+			path = Withdrawals;
+			sourceTree = "<group>";
+		};
+		BAE21D081F53292F0039506E /* ModifyBankCard */ = {
+			isa = PBXGroup;
+			children = (
+				BAE21D091F53295A0039506E /* HZModifyBankCardVC.h */,
+				BAE21D0A1F53295A0039506E /* HZModifyBankCardVC.m */,
+				BAE21D0C1F5334150039506E /* HZOpenDepositAccountVC.h */,
+				BAE21D0D1F5334160039506E /* HZOpenDepositAccountVC.m */,
+			);
+			path = ModifyBankCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E88BC751F26E388006A9EE8 /* QHXPasswordTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E88BCA31F26E38C006A9EE8 /* Build configuration list for PBXNativeTarget "QHXPasswordTextField" */;
+			buildPhases = (
+				8E88BC721F26E388006A9EE8 /* Sources */,
+				8E88BC731F26E388006A9EE8 /* Frameworks */,
+				8E88BC741F26E388006A9EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHXPasswordTextField;
+			productName = QHXPasswordTextField;
+			productReference = 8E88BC761F26E388006A9EE8 /* QHXPasswordTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E88BC8E1F26E38C006A9EE8 /* QHXPasswordTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E88BCA61F26E38C006A9EE8 /* Build configuration list for PBXNativeTarget "QHXPasswordTextFieldTests" */;
+			buildPhases = (
+				8E88BC8B1F26E38C006A9EE8 /* Sources */,
+				8E88BC8C1F26E38C006A9EE8 /* Frameworks */,
+				8E88BC8D1F26E38C006A9EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E88BC911F26E38C006A9EE8 /* PBXTargetDependency */,
+			);
+			name = QHXPasswordTextFieldTests;
+			productName = QHXPasswordTextFieldTests;
+			productReference = 8E88BC8F1F26E38C006A9EE8 /* QHXPasswordTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E88BC991F26E38C006A9EE8 /* QHXPasswordTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E88BCA91F26E38C006A9EE8 /* Build configuration list for PBXNativeTarget "QHXPasswordTextFieldUITests" */;
+			buildPhases = (
+				8E88BC961F26E38C006A9EE8 /* Sources */,
+				8E88BC971F26E38C006A9EE8 /* Frameworks */,
+				8E88BC981F26E38C006A9EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E88BC9C1F26E38C006A9EE8 /* PBXTargetDependency */,
+			);
+			name = QHXPasswordTextFieldUITests;
+			productName = QHXPasswordTextFieldUITests;
+			productReference = 8E88BC9A1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E88BC6E1F26E387006A9EE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.yitong.cn;
+				TargetAttributes = {
+					8E88BC751F26E388006A9EE8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 34P4SP8ZQ2;
+						ProvisioningStyle = Automatic;
+					};
+					8E88BC8E1F26E38C006A9EE8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E88BC751F26E388006A9EE8;
+					};
+					8E88BC991F26E38C006A9EE8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E88BC751F26E388006A9EE8;
+					};
+				};
+			};
+			buildConfigurationList = 8E88BC711F26E387006A9EE8 /* Build configuration list for PBXProject "QHXPasswordTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E88BC6D1F26E387006A9EE8;
+			productRefGroup = 8E88BC771F26E388006A9EE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E88BC751F26E388006A9EE8 /* QHXPasswordTextField */,
+				8E88BC8E1F26E38C006A9EE8 /* QHXPasswordTextFieldTests */,
+				8E88BC991F26E38C006A9EE8 /* QHXPasswordTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E88BC741F26E388006A9EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E88BC891F26E389006A9EE8 /* LaunchScreen.storyboard in Resources */,
+				185CC49C1F53C88A009D883A /* area.plist in Resources */,
+				8E88BC861F26E389006A9EE8 /* Assets.xcassets in Resources */,
+				8E88BC841F26E389006A9EE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E88BC8D1F26E38C006A9EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E88BC981F26E38C006A9EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E88BC721F26E388006A9EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185CC4991F53C879009D883A /* SecondViewController.m in Sources */,
+				188D2B441F5151D500D81019 /* HZRechargeVC.m in Sources */,
+				8E88BC811F26E389006A9EE8 /* ViewController.m in Sources */,
+				188D2B401F51238600D81019 /* HZEeeorVC.m in Sources */,
+				8E88BC7E1F26E389006A9EE8 /* AppDelegate.m in Sources */,
+				188D2B3D1F51234300D81019 /* HZSuccessVCViewController.m in Sources */,
+				1820522E1F54395000057311 /* HZOpenAccountVC.m in Sources */,
+				18DF8D9A1F638E690069D1CD /* MyAlertView.m in Sources */,
+				182052221F5432BE00057311 /* ListofnetworkoperatorsVC.m in Sources */,
+				BAE21D0B1F53295A0039506E /* HZModifyBankCardVC.m in Sources */,
+				18DF8D9B1F638E690069D1CD /* UIView+Frame.m in Sources */,
+				182052311F5458B900057311 /* HZNextOpenAccountVC.m in Sources */,
+				8E88BC7B1F26E389006A9EE8 /* main.m in Sources */,
+				BAE21D0E1F5334160039506E /* HZOpenDepositAccountVC.m in Sources */,
+				8E88BCAF1F26E3E6006A9EE8 /* PasswordView.m in Sources */,
+				185CC49A1F53C879009D883A /* ThridViewController.m in Sources */,
+				182052271F5433C100057311 /* ListofnetworkoperatorsCell.m in Sources */,
+				BA8905991F52A8E60092157E /* HZWithdrawalsVC.m in Sources */,
+				185CC4941F53C6AB009D883A /* HZRegionalChoiceVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E88BC8B1F26E38C006A9EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E88BC941F26E38C006A9EE8 /* QHXPasswordTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E88BC961F26E38C006A9EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E88BC9F1F26E38C006A9EE8 /* QHXPasswordTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E88BC911F26E38C006A9EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E88BC751F26E388006A9EE8 /* QHXPasswordTextField */;
+			targetProxy = 8E88BC901F26E38C006A9EE8 /* PBXContainerItemProxy */;
+		};
+		8E88BC9C1F26E38C006A9EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E88BC751F26E388006A9EE8 /* QHXPasswordTextField */;
+			targetProxy = 8E88BC9B1F26E38C006A9EE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E88BC821F26E389006A9EE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E88BC831F26E389006A9EE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E88BC871F26E389006A9EE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E88BC881F26E389006A9EE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E88BCA11F26E38C006A9EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E88BCA21F26E38C006A9EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E88BCA41F26E38C006A9EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34P4SP8ZQ2;
+				INFOPLIST_FILE = QHXPasswordTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yitong.cn.QHXPasswordTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E88BCA51F26E38C006A9EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34P4SP8ZQ2;
+				INFOPLIST_FILE = QHXPasswordTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yitong.cn.QHXPasswordTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E88BCA71F26E38C006A9EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QHXPasswordTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yitong.cn.QHXPasswordTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHXPasswordTextField.app/QHXPasswordTextField";
+			};
+			name = Debug;
+		};
+		8E88BCA81F26E38C006A9EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QHXPasswordTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yitong.cn.QHXPasswordTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHXPasswordTextField.app/QHXPasswordTextField";
+			};
+			name = Release;
+		};
+		8E88BCAA1F26E38C006A9EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QHXPasswordTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yitong.cn.QHXPasswordTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QHXPasswordTextField;
+			};
+			name = Debug;
+		};
+		8E88BCAB1F26E38C006A9EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QHXPasswordTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yitong.cn.QHXPasswordTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QHXPasswordTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E88BC711F26E387006A9EE8 /* Build configuration list for PBXProject "QHXPasswordTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E88BCA11F26E38C006A9EE8 /* Debug */,
+				8E88BCA21F26E38C006A9EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E88BCA31F26E38C006A9EE8 /* Build configuration list for PBXNativeTarget "QHXPasswordTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E88BCA41F26E38C006A9EE8 /* Debug */,
+				8E88BCA51F26E38C006A9EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E88BCA61F26E38C006A9EE8 /* Build configuration list for PBXNativeTarget "QHXPasswordTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E88BCA71F26E38C006A9EE8 /* Debug */,
+				8E88BCA81F26E38C006A9EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E88BCA91F26E38C006A9EE8 /* Build configuration list for PBXNativeTarget "QHXPasswordTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E88BCAA1F26E38C006A9EE8 /* Debug */,
+				8E88BCAB1F26E38C006A9EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E88BC6E1F26E387006A9EE8 /* Project object */;
+}
